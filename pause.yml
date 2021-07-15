@@ -1,0 +1,7 @@
+---
+- name: Pause
+  hosts: all
+  tasks:
+   - name: Initialising Instance
+     pause:
+      seconds: 30
