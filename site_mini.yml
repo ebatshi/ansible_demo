@@ -6,7 +6,7 @@
     keypair: ansible_tower
     instance_type: t2.micro
     image: ami-0ba62214afa52bec7
-    region: us-east-2
+    region: ap-south-1
     aws_secret: 1234
     aws_access: 1234
   tasks:
