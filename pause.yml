@@ -4,4 +4,4 @@
   tasks:
    - name: Initialising Instance
      pause:
-      seconds: 120
+      seconds: 30
