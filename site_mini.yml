@@ -3,7 +3,7 @@
   hosts: localhost
   gather_facts: False
   vars:
-    keypair: ansible_tower
+    keypair: ansible_tower_1
     instance_type: t2.micro
     image: ami-0ba62214afa52bec7
     region: us-east-2
