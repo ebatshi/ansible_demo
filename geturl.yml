@@ -3,5 +3,5 @@
   hosts: all
   tasks:
    - get_url:
-      url: http://“{{ ansible_facts.ansible_local.network_interfaces.private_ip_address }}”
+      url: http://“{{ ansible_facts.ansible_all_ipv4_addresses }}”
       
