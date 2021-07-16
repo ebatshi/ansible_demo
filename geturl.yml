@@ -3,4 +3,5 @@
   hosts: all
   tasks:
    - geturl:
-      url: http://172.31.2.66
+      url: http://“{{ ansible_facts.ansible_local.private_ip_address }}”
+      
