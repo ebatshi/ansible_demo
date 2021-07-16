@@ -1,4 +1,6 @@
-   ---
-   - name: Check HTTP server output
-     geturl:
+---
+- name: Check HTTP server output
+  hosts: all
+  tasks:
+   - geturl:
       url: http://172.31.2.66
